@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="23e4e1f2caca4fae817010a2832ebed4" Name="Diagram1">
+        <EntityTypeShape EntityType="BDDModel.Anio" Width="1.5" PointX="3.75" PointY="2.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="BDDModel.Comentario" Width="1.5" PointX="3" PointY="5.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="BDDModel.Estado" Width="1.5" PointX="3" PointY="8.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="BDDModel.Materias" Width="1.5" PointX="3.75" PointY="17.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="BDDModel.MensajeriaPriv" Width="1.5" PointX="3" PointY="10.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="BDDModel.Notificacion" Width="1.5" PointX="3" PointY="14.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="BDDModel.Producto" Width="1.5" PointX="6" PointY="7.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="BDDModel.sysdiagrams" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="BDDModel.Usuario" Width="1.5" PointX="0.75" PointY="7.625" IsExpanded="true" />
+        <AssociationConnector Association="BDDModel.FK_Producto_Anio" ManuallyRouted="false" />
+        <AssociationConnector Association="BDDModel.FK_Comentario_Producto" ManuallyRouted="false" />
+        <AssociationConnector Association="BDDModel.FK_Comentario_Usuario" ManuallyRouted="false" />
+        <AssociationConnector Association="BDDModel.FK_Estado_Usuario" ManuallyRouted="false" />
+        <AssociationConnector Association="BDDModel.FK_Producto_Materias" ManuallyRouted="false" />
+        <AssociationConnector Association="BDDModel.FK_MensajeriaPriv_Usuario" ManuallyRouted="false" />
+        <AssociationConnector Association="BDDModel.FK_MensajeriaPriv_Usuario1" ManuallyRouted="false" />
+        <AssociationConnector Association="BDDModel.FK_Notificacion_Usuario" ManuallyRouted="false" />
+        <AssociationConnector Association="BDDModel.FK_Producto_Usuario2" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
